@@ -1,0 +1,85 @@
+body {
+    background-color: #d1c8d4; /* Light blue background color */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 400px; /* Reduced the max-width of the container */
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #fff; /* White container background color */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    border: 2px solid black;
+}
+
+h1 {
+    color: #6f088e;
+    font-size: 1.5rem;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px; /* Increased height for the textbox */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 50%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: purple; /* Changed button background color to purple */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    align-items: center;
+    
+}
+
+input[type="submit"]:hover {
+    background-color: darkpurple; /* Darker purple color on hover */
+}
+
+#shortUrl {
+    margin-top: 20px;
+    color: #7108a9; /* Blue color for the shortened URL text */
+}
+
+#copyButton {
+    background-color: #790799; /* Blue copy button background color */
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+#copyButton:hover {
+    background-color: #4d0786; /* Darker blue color on hover */
+}
+.copied-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4caf50; /* Green background color */
+    color: white;
+    text-align: center;
+    padding: 10px;
+    z-index: 9999; /* Ensure it's above other content */
+}
